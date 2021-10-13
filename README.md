@@ -1,6 +1,5 @@
 # Freecodecamp algorithm solving from basic to advanced
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/mindxdoc/fcc-algorithm-solving/issues)
-![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2FmindxDoc%20%2F%20fcc-algorithm-solving)
 [![GitHub issues](https://img.shields.io/github/issues/mindxdoc/fcc-algorithm-solving.svg)](https://github.com/mindxdoc/fcc-algorithm-solving/issues)
 [![GitHub forks](https://img.shields.io/github/forks/mindxdoc/fcc-algorithm-solving.svg)](https://github.com/mindxdoc/fcc-algorithm-solving/network)
 [![GitHub stars](https://img.shields.io/github/stars/mindxdoc/fcc-algorithm-solving.svg)](https://github.com/mindxdoc/fcc-algorithm-solving/stargazers)
@@ -36,17 +35,16 @@ Questions can be asked by raising an `Issue`.
   git checkout -b <name of new branch>
 ```
 
-- Open the exercises/ applications folder inside that create a folder of **your name/your project name**. Add all the files of the program inside the folder of **your name/your project name**.
-> `Note: please add README for yout contribution inside your folder`
+- Open the basic/advanced folder inside that create a __markdown__ file with format **functionName.md**. Please add your name into file and description of requirement, code exercises and explain it.
 
 - Stage your changes
   - For example, if you have added 1 file
     ``` 
-    git add "./basic/*Your Folder Name*/Hello.js" 
+    git add "./basic/functionName.md" 
     ```
   - If there are many files, to add all the files use 
     ``` 
-    git add "./basic/*Your Folder Name*/."
+    git add "./basic/functionName.md"
     ```
 
 - Commit the changes
