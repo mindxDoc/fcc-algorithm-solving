@@ -1,0 +1,20 @@
+//Sum of prime numbers 
+
+/*
+Here we pass an Number as argument to function.
+returns the sum of all prime numbers that are less than or equal to number. 
+for example, sumPrimes(10) should return 17.
+*/
+
+
+
+
+function sumPrimes(num) {
+  // Check all numbers for primality
+  let primes = [];
+  for (let i = 2; i <= num; i++) {
+    if (primes.every((prime) => i % prime !== 0))
+      primes.push(i);
+  }
+  return primes.reduce((sum, prime) => sum + prime, 0);
+}
